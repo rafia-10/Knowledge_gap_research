@@ -1,0 +1,3 @@
+# Evening Call Summary
+
+In our 45-minute explanation session, I presented the 328 KB token footprint calculation visually as planned in the morning, which immediately landed with Martha because it grounded the vague "memory pressure" argument in hard numbers. Her primary feedback was that she needed more clarity on how OpenRouter exposes the cache hit rate practically. I revised the explainer on the call to explicitly detail the `prompt_tokens_details: { cached_tokens: X }` usage response object. The session concluded with us tracing the exact `conversion_engine.py` JSON order that would maximize the RadixTree hit rate against the `qwen3` endpoint.

@@ -1,0 +1,3 @@
+# Morning Call Summary
+
+During our 30-minute real-time voice call, we interrogated each other's candidate gaps. Martha's initial question vaguely asked "why the 80B model was slow," which we refined deeply into a specific, mechanical question about KV cache footprints and RadixTree invalidation rules. We agreed the prefix caching angle was the load-bearing mechanism that needed closing. We also formalized a plan for the evening explanation session, deciding that I would present the KV cache math visually using a token block diagram before we walked through how OpenRouter proxies those requests behind the scenes.
