@@ -23,5 +23,5 @@ Additionally, the root folder holds cumulative artifacts:
 
 ## Tech Stack Context
 All questions are formulated rigorously from the practical systems implemented for the Conversion Engine, specifically targeting:
-* **LLM-as-a-judge Evaluation:** The `tau2` simulation framework, `Tenacious-Bench` constraints, LoRA adapter mechanics, and OpenRouter API integrations.
-* **Agent Flow & Webhooks:** The EventLedger architecture, FastAPI robust outreach pipelines, Cal.com sync, and Kafka messaging patterns.
+* **LLM Inference Mechanics:** KV caching, prefix caching across sequential requests, memory footprint, OpenRouter API proxy behavior, and decoding vs prefill latency.
+* **Agent Architecture:** Converting leads using system prompts tied to the specific pipeline, and assessing structural formatting for downstream pipeline tools.
