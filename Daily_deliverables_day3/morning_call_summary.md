@@ -1,0 +1,3 @@
+# Morning Call Summary
+
+During the morning session, my partner challenged my initial question about "why LoRA is faster than full fine-tuning." She pointed out that this was too generic and could be answered by a Wikipedia paragraph. We interrogated the `hyperparams.json` from the `tenacious-bench` repository, specifically focusing on why rank 16 and alpha 32 were chosen. By the end of the 25-minute call, we sharpened the question to focus strictly on the linear algebra bottleneck and the dimensional capacity differences between rank 8 and 16, committing to making the explainer purely mathematical rather than architectural.
