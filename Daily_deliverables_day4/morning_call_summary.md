@@ -1,0 +1,5 @@
+# Morning Call Summary
+
+During the morning call, Ephrata and I interrogated our draft questions. Ephrata's original question was somewhat broad about "why fine-tuning is better than prompting." I pushed back, asking him to ground it in the actual weight mechanics since "better" is too subjective. He sharpened it to focus specifically on what changes at the weight level during fine-tuning that a prompt fundamentally cannot alter in the forward pass.
+
+For my question, Ephrata pointed out that asking "how do LoRA hyperparameters work" wasn't diagnostic enough. He asked, "Which hyperparameter do you actually not understand?" I realized that while I knew $r$ controlled the bottleneck dimension, I treated $\alpha$ as magic. I rewrote my question to isolate the specific mechanical relationship between $\alpha$ and $r$ and how their ratio mathematically scales the adapter's activation magnitude, directly tying it to the catastrophic forgetting risks I mitigated during the Tenacious-Bench judge training. We confirmed both questions were sharp and unambiguous.
